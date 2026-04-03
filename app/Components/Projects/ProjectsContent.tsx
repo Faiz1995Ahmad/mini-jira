@@ -11,26 +11,74 @@ import {
 
 export default function ProjectsContent() {
     return (
-        <div>
-            <Table>
-                <TableCaption>A list of your recent invoices.</TableCaption>
-                <TableHeader>
-                    <TableRow>
-                        <TableHead className="w-[100px]">Invoice</TableHead>
-                        <TableHead>Status</TableHead>
-                        <TableHead>Method</TableHead>
-                        <TableHead className="text-right">Amount</TableHead>
-                    </TableRow>
-                </TableHeader>
-                <TableBody>
-                    <TableRow>
-                        <TableCell className="font-medium">INV001</TableCell>
-                        <TableCell>Paid</TableCell>
-                        <TableCell>Credit Card</TableCell>
-                        <TableCell className="text-right">$250.00</TableCell>
-                    </TableRow>
-                </TableBody>
-            </Table>
-        </div>
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHead >Name</TableHead>
+                    <TableHead>Status</TableHead>
+                    <TableHead>Manager</TableHead>
+                    <TableHead className="text-right"></TableHead>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell className="font-medium">INV001</TableCell>
+                    <TableCell>Paid</TableCell>
+                    <TableCell>Credit Card</TableCell>
+                    <TableCell className="text-right">
+                        <button className="bg-blue-500 p-2 cursor-pointer rounded-md hover:bg-blue-300">Teams</button>
+                    </TableCell>
+                </TableRow>
+
+            </TableBody>
+        </Table>
     )
 }
